@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nombre": "Conejita grande con moño",
+    "precio": 5500,
+    "img": "../img/conejagrande.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Jirafita con bufanda",
+    "precio": 3200,
+    "img": "../img/jirafitaconbufanda.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Bichito verde",
+    "precio": 4500,
+    "img": "../img/bichitoverde.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Zorrito feliz",
+    "precio": 3100,
+    "img": "../img/zorrito.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Perrito Beagle",
+    "precio": 5200,
+    "img": "../img/beagle.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Coneja mediana con flores",
+    "precio": 2800,
+    "img": "../img/conejamedianaconflores.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Conejitos pequeños",
+    "precio": 1300,
+    "img": "../img/conejitospequeños.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Dino Bebé",
+    "precio": 1400,
+    "img": "../img/dinobebe.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Elefantito bebé",
+    "precio": 2900,
+    "img": "../img/elefantitopequeño.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Koala",
+    "precio": 3200,
+    "img": "../img/koala.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Llamita",
+    "precio": 4500,
+    "img": "../img/llamita.jpg"
+  }
+]

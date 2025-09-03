@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+QLD+Beginner:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Playwrite+RO:wght@100..400&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap");
+.formulario-contacto form button, .productos .catalogo .tarjeta button, .boton, .hero .boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(175, 240, 218, 0.8);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.formulario-contacto form button:hover, .productos .catalogo .tarjeta button:hover, .boton:hover {
+  background-color: rgba(100, 200, 180, 0.9);
+}
+
+.formulario-contacto form button, .productos .catalogo .tarjeta button, .boton, .hero .boton, .ir-a-login, .ir-a-registro {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(175, 240, 218, 0.8);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.formulario-contacto form button:hover, .productos .catalogo .tarjeta button:hover, .boton:hover {
+  background-color: rgba(100, 200, 180, 0.9);
+}
+
+
+* {
+  font-family: "Poetsen One", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*----------GENERAL---------------*/
+header img {
+  width: 200px;
+  height: auto;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Poetsen One", sans-serif;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: rgba(175, 240, 218, 0.555);
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Poetsen One", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 200;
+  padding: 5px;
+  background-color: rgba(175, 240, 218, 0.555);
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 200;
+  font-family: "Poetsen One", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 200;
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "Poetsen One", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+main h3 {
+  text-align: center;
+  background-color: rgba(175, 240, 218, 0.555);
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Poetsen One", sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+.carrito img{
+    width: 50px;
+    height: 50px;
+}
+.carrito{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+.whatsapp img {
+  width: 50px;
+  height: 50px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+header {
+  /*background-color: rgb(245, 245, 220);*/
+  background: linear-gradient(0deg, rgb(175, 240, 218) 0%, rgb(245, 245, 220) 43%, rgb(245, 245, 220) 100%);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+header .imgcontainer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". img .";
+}
+header .imgcontainer img {
+  grid-area: img;
+  justify-self: center;
+  max-width: 100%;
+}
+header nav.navbar.bg-body-tertiary {
+  background-color: transparent !important;
+}
+header nav.navbar.bg-body-tertiary .navbar-brand img {
+  width: 50% !important;
+  height: auto;
+}
+header .collapse .navbar-collapse .navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+header .collapse .navbar-collapse .navbar-nav .nav-link {
+  color: black;
+}
+header .collapse .navbar-collapse .navbar-nav a {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.hero {
+  text-align: center;
+  height: 400px;
+  color: white;
+  background-image: url(../img/imagenlanas.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.acercademi-container {
+  background-color: bisque;
+  padding: 0px;
+}
+.acercademi-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  color: black;
+}
+.acercademi-container .acercademi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 20px;
+}
+.acercademi-container .acercademi .acercademi-texto {
+  flex: 1 1 60%;
+  padding: 10px;
+}
+.acercademi-container .acercademi .acercademi-texto p {
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.acercademi-container .acercademi .acercademi-imagen {
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acercademi-container .acercademi .acercademi-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: bisque;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.divmateriales,
+.divlavado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  height: 350px;
+  border: solid black 2px;
+  background-color: beige;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.divmateriales img,
+.divlavado img {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.divmateriales h3,
+.divlavado h3 {
+  text-align: center;
+  background-color: rgba(175, 240, 218, 0.555);
+  padding: 10px;
+}
+
+.divmateriales p,
+.divlavado p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.ustedes-container {
+  background-color: bisque;
+}
+.ustedes-container #carouselExample {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.ustedes-container #carouselExample .carousel-inner {
+  width: 100%;
+}
+.ustedes-container #carouselExample .carousel-inner .carousel-item {
+  width: 100%;
+}
+.ustedes-container #carouselExample .carousel-inner .carousel-item img {
+  width: 100% !important;
+  height: auto;
+  object-fit: contain;
+  padding: 10px;
+}
+
+footer {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+footer .informacion {
+  margin: 3px;
+  padding: 3px;
+}
+footer a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+footer .seguinos {
+  margin: 3px;
+  padding: 3px;
+}
+footer .seguinos a img {
+  width: 40px;
+  height: auto;
+  transition: 2s;
+}
+footer .seguinos a img:hover {
+  transform: translateX(250px);
+}
+footer .ubicacion {
+  margin: 3px;
+  padding: 3px;
+}
+footer .ubicacion iframe {
+  width: 150px;
+  height: 150px;
+}
+
+.productos .catalogo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: rgba(255, 228, 196, 0.4);
+  padding: 20px;
+}
+.productos .catalogo .tarjeta {
+  width: 80%;
+  max-width: 200px;
+  background-color: beige;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+}
+.productos .catalogo .tarjeta .tarjeta-header {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.productos .catalogo .tarjeta img {
+  width: 80%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 15px 0;
+}
+.cursos .descripcion {
+  margin: 5%;
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.video-container .iframe {
+  max-width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.mediosdepago {
+  margin: 4%;
+  padding: 2px;
+}
+
+.formulario-contacto {
+  display: grid;
+  max-width: 600px;
+  margin: 0px auto;
+  width: 90%;
+  background-color: beige;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formulario-contacto h1 {
+  font-size: 48px;
+  color: black;
+  margin-bottom: 10px;
+}
+.formulario-contacto p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+.formulario-contacto form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.formulario-contacto form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.formulario-contacto form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+body {
+  background-color: bisque;
+}
+
+main {
+  background-color: bisque;
+}
+
+.avisolegal {
+  margin: 4%;
+  padding: 2px;
+}
+
+@media screen and (max-width: 676px) {
+  .tips {
+    flex-direction: column;
+  }
+  .tips .divmateriales,
+  .tips .divlavado {
+    width: 300px;
+    height: auto;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .carousel-inner .carousel-item img {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 556px) {
+  .informacion {
+    margin: 1px;
+    padding: 1px;
+  }
+  .informacion h3 {
+    font-size: 15px;
+  }
+  .informacion a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+  }
+  .seguinos {
+    margin: 1px;
+    padding: 1px;
+  }
+  .seguinos h3 {
+    font-size: 15px;
+  }
+  .seguinos a img {
+    width: 35px;
+    height: auto;
+  }
+  .ubicacion {
+    margin: 1px;
+    padding: 1px;
+  }
+  .ubicacion h3 {
+    font-size: 15px;
+  }
+  .ubicacion iframe {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .productos .catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario-contacto {
+    padding: 20px;
+  }
+  .formulario-contacto h1 {
+    font-size: 30px;
+  }
+  .formulario-contacto p {
+    font-size: 10px;
+  }
+}
